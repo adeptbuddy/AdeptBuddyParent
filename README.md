@@ -1,2 +1,2 @@
 # AdeptBuddyParent
-Adept Buddy Website Repository.
+Adept Buddy Website Repository beta.
