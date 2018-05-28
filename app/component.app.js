@@ -19,11 +19,14 @@ System.register(['@angular/core'], function(exports_1, context_1) {
             }],
         execute: function() {
             AppComponent = class AppComponent {
+                constructor() {
+                    this.name = "Krishna Chaitanya K";
+                }
             };
             AppComponent = __decorate([
                 core_1.Component({
                     selector: 'app',
-                    template: '<h1>Adept Buddy</h1>'
+                    templateUrl: './partials/app.html'
                 }), 
                 __metadata('design:paramtypes', [])
             ], AppComponent);
