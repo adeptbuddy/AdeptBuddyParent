@@ -19,10 +19,11 @@
         "@angular/platform-browser": "6.0.3",
         "@angular/platform-browser-dynamic": "6.0.3",
         "@angular/router": "6.0.3",
-        "systemjs": "0.21.3",
         "core-js": "2.5.7",
         "reflect-metadata": "0.1.12",
         "rxjs": "6.2.0",
+        "rxjs-compat": "^6.0.0-tactical-rc.1",
+        "systemjs": "0.21.3",
         "zone.js": "0.8.26"
     },
     "devDependencies": {

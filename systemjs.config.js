@@ -3,6 +3,10 @@
 */
 (function(global){
     System.config({
+        paths: {
+            'npm:': 'node_modules/'
+        },
+
         //map tells the System loader where to look for things
         map: {
             'app': 'app', //'dist'
@@ -20,6 +24,7 @@
 
             //Other
             'rxjs': "node_modules/rxjs",
+            'rxjs-compat': "node_modules/rxjs-compat/",
             'angular2-in-memory-web-api': 'node_modules/angular2-in-memory-web-api'
         },
 
@@ -30,6 +35,14 @@
                 defaultExtension: 'js'
             },
             "rxjs": {
+                defaultExtension: 'js',
+                main: 'Rx.js'
+            },
+            "rxjs/internal-compatibility": {
+                defaultExtension: 'js',
+                main: 'index.js'
+            },
+            "rxjs-compat": {
                 defaultExtension: 'js'
             },
             "angular2-in-memory-web-api": { 
